@@ -10,4 +10,4 @@ bossbar set night color blue
 bossbar set night visible false
 bossbar set morning players @a
 bossbar set night players @a
-time set day
+time set 11400
