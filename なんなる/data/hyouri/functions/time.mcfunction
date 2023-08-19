@@ -11,7 +11,7 @@ execute as @e[type=armor_stand,tag=time,scores={morning=0}] run difficulty hard
 execute as @e[type=armor_stand,tag=time,scores={morning=0}] run bossbar set morning visible false
 execute as @e[type=armor_stand,tag=time,scores={morning=0}] run bossbar set night visible true
 execute as @e[type=armor_stand,tag=time,scores={morning=0}] run scoreboard objectives remove morning
-execute as @e[type=armor_stand,tag=time,scores={night=0}] run scoreboard objectives add night dummy
+execute as @e[type=armor_stand,tag=time,scores={night=0}] run scoreboard objectives add morning dummy
 execute as @e[type=armor_stand,tag=time,scores={night=0}] run time set day
 execute as @e[type=armor_stand,tag=time,scores={night=0}] run bossbar add morning "昼残り時間"
 execute as @e[type=armor_stand,tag=time,scores={night=0}] run bossbar set morning max 12000
