@@ -20,4 +20,4 @@ execute as @e[type=armor_stand,tag=time,scores={night=0}] run difficulty peacefu
 execute as @e[type=armor_stand,tag=time,scores={night=0}] run bossbar set morning visible true
 execute as @e[type=armor_stand,tag=time,scores={night=0}] run bossbar set night visible false
 execute as @e[type=armor_stand,tag=time,scores={night=0}] run scoreboard objectives remove night
-execute as @a[nbt={SleepTimer:100s}] at @s run tp ~ ~5 ~
+execute as @a[nbt={SleepTimer:1s}] at @s run tp ~ ~5 ~
