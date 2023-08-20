@@ -11,3 +11,4 @@ bossbar set night visible false
 bossbar set morning players @a
 bossbar set night players @a
 time set 11400
+scoreboard objectives add death deathCount

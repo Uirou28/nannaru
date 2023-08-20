@@ -15,6 +15,8 @@ execute as @e[type=armor_stand,tag=time,scores={night=0}] run bossbar add mornin
 execute as @e[type=armor_stand,tag=time,scores={night=0}] run bossbar set morning max 12000
 execute as @e[type=armor_stand,tag=time,scores={night=0}] run scoreboard players set @s morning 12000
 execute as @e[type=armor_stand,tag=time,scores={night=0}] run difficulty peaceful
+execute as @e[type=armor_stand,tag=time,scores={night=0}] run xp add @a[scores={death=0}] 3 levels
+execute as @e[type=armor_stand,tag=time,scores={night=0}] run scoreboard players set @a death 0
 execute as @e[type=armor_stand,tag=time,scores={night=0}] run bossbar set morning visible true
 execute as @e[type=armor_stand,tag=time,scores={night=0}] run bossbar set night visible false
 execute as @e[type=armor_stand,tag=time,scores={night=0}] run scoreboard objectives remove night
